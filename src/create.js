@@ -6,11 +6,20 @@ const Create = () => {
     const [title,setTitle]=useState("");
     const [body,setBody]=useState("");
     const [author,setAuthor]=useState("");
+    const history=useHistory();
     const handle=(e)=>{
         e.preventDefault();
         const blog={title,body,author};
          
-        fetch
+        fetch("http://localhost:4000/Blogs",{
+            method:"POST",
+            headers:{"Content-Type":"application/json"},
+            body:JSON.stringify(blog)
+
+        })
+        .then(()=>{
+            history.push("/");
+    })
 
     }
 
@@ -24,11 +33,11 @@ const Create = () => {
                 onChange={(e)=>setTitle(e.target.value)}
                 type="text"></input>
                 <label>Blog body :</label>
-                <textarea cols="30" rows="10"></textarea>
-                <label
+                <textarea cols="30" rows="10" 
                 required
                 onChange={(e)=>setBody(e.target.value)}
-                >Your Name :</label>
+                ></textarea>
+                <label>Your Name :</label>
                 <input 
                 required
                 onChange={(e)=>setAuthor(e.target.value)}

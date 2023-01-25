@@ -334,3 +334,31 @@ input[type="text"],input[type="email"]{
   font-size: 3rem;
   font-family: 'Kanit', sans-serif;
 }
+
+.single-blog{
+  margin-top: 5rem;
+  margin-left: 6rem;
+  font-family: 'Kanit', sans-serif;
+}
+
+.single-blog h4{
+  opacity: 0.6;
+}
+
+.single-blog p{
+  margin-top: 2rem;
+  ;
+  
+}
+
+.single-blog button{
+  display: inline-block;
+  height: 2rem;
+  width: 6rem;
+  border-style: none;
+  border-radius: 1rem;
+  background-color: #FD04B7;
+  color: #FFFFFF;
+  margin-top: 3rem;
+  
+}

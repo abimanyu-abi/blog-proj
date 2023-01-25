@@ -7,7 +7,7 @@ const Blog = () => {
 
     const [blogs,setBlog]=useState(null);
     const [isPending,setPending]=useState(true);
-    const [error,setError]=useState("");
+    const [error,setError]=useState(null);
 
     useEffect(()=>{
         fetch(" http://localhost:4000/Blogs")
@@ -21,6 +21,7 @@ const Blog = () => {
         .then((data)=>{
             setBlog(data);
             setPending(false);
+            setError(null)
         })
         .catch(err=>{
             setPending(false);

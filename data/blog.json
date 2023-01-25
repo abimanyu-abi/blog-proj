@@ -2,63 +2,9 @@
   "Blogs": [
     {
       "title": "Food",
-      "body": "",
+      "body": "this is the blog about the food management and how the food is going to be useful",
       "author": "Abimanyu",
       "id": 1
-    },
-    {
-      "title": "Food",
-      "body": "",
-      "author": "Abimanyu",
-      "id": 2
-    },
-    {
-      "title": "Food",
-      "body": "",
-      "author": "Abimanyu",
-      "id": 3
-    },
-    {
-      "title": "Food",
-      "body": "thererkjsdfkjsdkfj",
-      "author": "Abimanyu",
-      "id": 4
-    },
-    {
-      "title": "sdkfjsdfj",
-      "body": "kjdkasdkashdk",
-      "author": "kdfkjadfkakfj",
-      "id": 5
-    },
-    {
-      "title": "sdkfjslkdjflskj",
-      "body": "sjdflsjdfljsdlfjsdfjlk",
-      "author": "lkjfsjflsjflsjljf",
-      "id": 6
-    },
-    {
-      "title": "jnbj",
-      "body": "nnn\n",
-      "author": "bb",
-      "id": 7
-    },
-    {
-      "title": "vghh",
-      "body": "n",
-      "author": " m",
-      "id": 8
-    },
-    {
-      "title": "jhjg",
-      "body": "jhgjgjgj",
-      "author": "jhgjhgjh",
-      "id": 9
-    },
-    {
-      "title": "hbjhgjhgj",
-      "body": "jhgjgjgjhg",
-      "author": "jgjgjjgjhjg",
-      "id": 10
     }
   ]
 }

@@ -18,7 +18,7 @@ const Create = () => {
 
         })
         .then(()=>{
-            history.push("/");
+            history.push("/blog");
     })
 
     }

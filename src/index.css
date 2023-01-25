@@ -275,7 +275,7 @@ input[type="text"],input[type="email"]{
   height: 2.5rem;
   background-color:#D9D9D9;
   width: 50rem;
-
+  
 }
 .create-form textarea{
   border-style: none;
@@ -295,4 +295,42 @@ input[type="text"],input[type="email"]{
   display: block;
   margin-left: 20rem;
   margin-top: 1rem;
+}
+
+.Blogs{
+  width: 35rem;
+  height: 5rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+  
+  margin-left: 20rem;
+  padding: 0.5rem 0 0 2rem;
+  font-family: 'Kanit', sans-serif;
+}
+.Blogs:hover{
+  background-color: #C2FCE4;
+}
+
+.Blog{
+  margin-top: 3rem;
+  
+  
+}
+.blog-heading{
+  text-align: center;
+  font-family:  'Kanit', sans-serif;
+}
+.Blogs h4{
+  opacity: 0.5;
+}
+.Blogs a{
+  text-decoration: none;
+  color: black;
+}
+
+.Loading{
+  margin-top: 2rem;
+  margin-left: 20rem;
+  font-size: 3rem;
+  font-family: 'Kanit', sans-serif;
 }
